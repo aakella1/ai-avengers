@@ -1,0 +1,18 @@
+# Class demo dependencies — install into a virtualenv:
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+
+# RAG pipeline
+pypdf==6.14.2
+faiss-cpu==1.14.3
+anthropic==0.117.0
+python-dotenv==1.2.2
+sentence-transformers==5.6.0   # embedding provider: local
+openai==2.46.0                 # embedding provider: openai
+
+# Agent demo
+strands-agents[anthropic]==1.48.0
+strands-agents-tools==0.8.4
+requests
+ddgs==9.14.4                   # web_search tool
+streamlit==1.59.2               # chat UI (chat_app.py)

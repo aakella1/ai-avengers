@@ -1,0 +1,7 @@
+{
+  "provider": "openai",
+  "model": "text-embedding-3-small",
+  "num_vectors": 105,
+  "dim": 1536,
+  "normalized": true
+}

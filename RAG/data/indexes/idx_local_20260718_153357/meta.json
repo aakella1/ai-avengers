@@ -1,0 +1,11 @@
+{
+  "index_id": "idx_local_20260718_153357",
+  "created_at": "2026-07-18T15:33:57",
+  "num_vectors": 105,
+  "dim": 384,
+  "index_type": "IndexFlatIP (cosine similarity)",
+  "embedding_provider": "local",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "chunk_size": 180,
+  "chunk_overlap": 40
+}
