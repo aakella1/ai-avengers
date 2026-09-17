@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Extract the AWS region from an S3 bucket ARN like 'arn:aws:s3:::my-bucket-us-west-2'",
+    "format": "regex"
+  },
+  {
+    "task": "Create a JSON CloudFormation template snippet for an IAM role that allows EC2 instances to access S3",
+    "format": "json"
+  },
+  {
+    "task": "Write a Python function that takes an AWS access key ID and returns True if it's in a valid format",
+    "format": "python"
+  }
+]

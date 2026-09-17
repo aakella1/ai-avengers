@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function that processes S3 events, with environment variables for DynamoDB table name and SNS topic ARN",
+    "format": "json",
+    "solution_criteria": "Must include valid Lambda configuration with S3 event source mapping, environment variables section with DynamoDB and SNS references, and proper JSON syntax"
+  },
+  {
+    "task": "Write a Python function that takes an AWS S3 object key as input and returns a dictionary containing the bucket name and object name extracted from the key",
+    "format": "python",
+    "solution_criteria": "Function must correctly parse S3 keys in formats like 'bucket-name/folder/file.txt' or 'my-bucket/path/to/object', handle edge cases, and return a dict with 'bucket' and 'object_key' keys"
+  },
+  {
+    "task": "Create a regular expression that matches valid AWS IAM role ARNs in the format 'arn:aws:iam::account-id:role/role-name'",
+    "format": "regex",
+    "solution_criteria": "Regex must match valid IAM role ARNs with 12-digit account IDs and alphanumeric role names containing hyphens/underscores, and reject invalid formats"
+  }
+]

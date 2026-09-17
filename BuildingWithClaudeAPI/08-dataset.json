@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that extracts the AWS region from an S3 bucket URL like 's3://my-bucket.s3.us-west-2.amazonaws.com/key'. Return the region code (e.g., 'us-west-2')."
+  },
+  {
+    "task": "Write a regular expression that matches valid AWS IAM role ARNs in the format 'arn:aws:iam::123456789012:role/RoleName'. The account ID should be exactly 12 digits and the role name can contain alphanumeric characters, hyphens, and forward slashes."
+  },
+  {
+    "task": "Write a JSON object that represents a valid AWS Lambda function environment variables configuration with three variables: DATABASE_URL, API_KEY, and DEBUG_MODE (set to 'true')."
+  }
+]

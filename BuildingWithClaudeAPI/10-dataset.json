@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Extract the AWS account ID from an ARN string like 'arn:aws:s3:::my-bucket/path/to/object'",
+    "format": "regex"
+  },
+  {
+    "task": "Parse an AWS CloudWatch Logs JSON event and extract the timestamp and message fields",
+    "format": "python"
+  },
+  {
+    "task": "Create a JSON policy document that allows read-only access to a specific S3 bucket",
+    "format": "json"
+  }
+]
