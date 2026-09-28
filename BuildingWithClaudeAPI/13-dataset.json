@@ -1,0 +1,33 @@
+[
+  {
+    "prompt_inputs": {},
+    "solution_criteria": [
+      "System acknowledges the absence of task description and/or allowed input keys",
+      "Response indicates inability to proceed and requests clarification on requirements",
+      "No fabricated task interpretation is attempted"
+    ],
+    "task_description": "",
+    "scenario": "Testing with empty or missing task description to verify how the system handles undefined requirements"
+  },
+  {
+    "prompt_inputs": {},
+    "solution_criteria": [
+      "Acknowledges the ambiguity in the input specification",
+      "Requests clarification on key missing details",
+      "Provides a reasonable interpretation or multiple possible approaches",
+      "Demonstrates robustness by not failing when faced with incomplete information"
+    ],
+    "task_description": "",
+    "scenario": "Testing with vague prompt input specifications to evaluate robustness when inputs are ambiguous or incompletely defined"
+  },
+  {
+    "prompt_inputs": {},
+    "solution_criteria": [
+      "Acknowledges the existence of conflicting requirements",
+      "Provides a clear rationale for how conflicts are resolved",
+      "Demonstrates practical prioritization logic"
+    ],
+    "task_description": "",
+    "scenario": "Testing with contradictory or conflicting requirements to assess how the system prioritizes and resolves competing constraints"
+  }
+]
